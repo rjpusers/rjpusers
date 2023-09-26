@@ -1,0 +1,20 @@
+---
+title: "{{< fa brands r-project title='R' >}}研究集会について"
+---
+
+{{< fa brands r-project title="R" >}} 研究集会は、統計数理研究所による公募型共同利用での共同研究集会として採択されている「データ解析環境の整備と利用」の略称です。本研究集会は2005年より15年以上継続して行われているR関連コミュニティーの一つです。教育機関に所属する研究者を中心に、{{< fa brands r-project title="R" >}}に興味をもつユーザーが分野横断的に集う全国唯一の研究集会となっています。
+
+## 世話人
+
+- 瓜生真也 [uribo](https://github.com/uribo) (徳島大学デザイン型AI教育研究センター) (2023~)
+
+### 歴代の世話人
+
+- 藤野友和
+- 中谷朋昭
+- 間瀬茂
+- 中野純司
+
+## SNS
+
+- {{< fa brands github >}} GitHub: https://github.com/rjpusers

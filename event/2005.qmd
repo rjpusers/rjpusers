@@ -1,0 +1,105 @@
+---
+title: "2005年度統計数理研究所共同研究集会<br>「データ解析環境Rの整備と利用」"
+---
+
+- 日時: 2005年12月9日、10日（2日間）
+- 開催場所: 東京都港区麻布４－６－７　統計数理研究所新館２階研修室
+
+```
+みなさま
+
+フリーの統計解析システムRに関する下記の共同利用研究会を開催します。参加は自由で， 一日だけの参加も歓迎します。多くの方のご参加をお待ちしています。中野純司＠統計数理 研究所
+
+平成１７年度統計数理研究所共同利用研究集会
+「データ解析環境Ｒの整備と利用」
+```
+
+## プログラム
+
+### 12月9日
+
+使用言語：英語
+
+| Time | Speaker | Title |
+|------|:--------|:------|
+| 13:30-14:30 | Simon Urbanek (AT&T Research Labs), a member of the R core development team | iPlots - Interactive Graphics for Data Analysis in R |
+| 14:45-15:45 | Simon Urbanek (AT&T Research Labs), a member of the R core development team | JGR - Java GUI for R and Java/R interfaces |
+| 16:00-17:00 | Simon Urbanek (AT&T Research Labs), a member of the R core development team |  Parallel computing in R - Top Trees models space exploration |
+
+それぞれの talk の abstract が下のほうにあります
+
+### 12月10日
+
+使用言語：日本語
+
+| 時刻 | 発表者 | 演題 |
+|------|:--------|:------|
+| 10:00-10:30 | 舟尾暢男（武田薬品） | R 初心者からみた R 初心者の現況 |
+| 10:40-11:10 | 中間栄治（COM-ONE） | 私的Ｒ利用方法 |
+| 11:20-11:50 | 岡田昌史（筑波大学） | RjpWikiのこれまでとこれから |
+| 12:00-13:30 | | *昼食* |
+| 13:30-14:00 | 久保拓弥（北海道大学） | 生態学分野での R の使われかた紹介 |
+| 14:10-14:40 | 中澤港（群馬大学） | 医学統計教育におけるRの利用 |
+| 14:50-15:20 | 中野純司（統計数理研究所） | 統計数理研究所でのＲ |
+| 15:30-16:00 | 間瀬茂（東京工業大学）| R の S4 クラスとメソッド入門 |
+| 16:10-16:40 | 谷村晋（長崎大学） | Thematic Cartography with R |
+| 16:50-17:20 | | 総合討論 |
+| 18:00-      | | *懇親会(広尾近辺)* |
+
+
+```
+Abstract of talk 1:
+
+ R is a very flexible and powerful software for statistical computing.
+It extensibility is leveraged by hundreds of packages offering a wide
+variety of tools in many areas in applied sciences. However, the is
+one aspect that covered only partially and that is graphics. R
+produces high-quality static graphics for publication purposes, but
+it lacks interactive graphics for explorative data analysis.
+
+ iPlots attempt to remedy this shortcoming by providing platform-
+independent interactive graphics for R. The iPlots package offers a
+wide range of fully interactive graphics including scatterplots,
+histograms, barchars, mosaic plots, parallel coordinates plots and
+many others. Moreover iPlots are based on a very flexible and
+extensible engine for creation of arbitrary interactive graphics: iBase.
+
+ In this talk we will demonstrate the use of iPlots as a tool for
+exploratory data analysis and discuss the basic concepts of iPlots.
+We will also provide insights into the iBase framework for creating
+new interactive graphics. All this will demonstrated on practical
+real-word examples.
+
+Abstract of talk 2:
+
+ R can be made accessible to a broader range of users by using
+graphical user interface (GUI) to provide additional support for the
+user. JGR - Java GUI for R is a cross-platoform GUI for R. It
+flattens the learning curve, is valuable for teaching statistics, but
+also includes features that will be welcome even by power-users.
+
+ In this talk we will demonstrate various features of JGR, such as the
+intelligent console, code editor, object browser, help system and
+package installer. In addition we will discuss integration of iPlots
+(interactive graphics for R) and iWidgets (custom user interface
+elements in R) in JGR.
+
+ We will also look behind the scenes and consider several R/Java
+interfaces, their differences and applications. Furthermore we will
+show how to integrate own Java code into R and use R function from
+within Java.
+
+Abstract of talk 3:
+
+ For historical reasons, R is a single-threaded application. Nevertheless,
+in this talk we will show how can R be successfully
+leveraged for parallel computing. Most common approaches involve
+running several R processes using various kinds of inter-process
+communications.
+
+ In this talk we will discuss several different methods of parallel
+computing in R. We will also show step by stop how parallel computing
+can be made easy using the snow package for R. In addition, we will
+present in detail a practical example of model space exploration of
+tree models that we performed using massive parallel computing.
+```

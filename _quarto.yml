@@ -1,0 +1,38 @@
+project:
+  type: website
+  render: 
+    - "*.qmd"
+    - "!README.md"
+
+lang: "ja"
+
+website:
+  title: "統計数理研究所 共同利用 研究集会「データ解析環境{{< fa brands r-project title='R' >}}の整備と利用」"
+  back-to-top-navigation: true
+  repo-url: https://github.com/rjpusers/rjpusers
+  navbar:
+    left:
+      - href: index.qmd
+        text: "ホーム"
+      - href: about.qmd
+        text: "R研究集会について"
+      - text: "最近のイベント"
+        menu: 
+          - text: "2023年度"
+            href: event/2023.qmd
+          - text: "2022年度"
+            href: event/2022.qmd
+          - text: "2021年度"
+            href: event/2021.qmd
+          - text: "2020年度"
+            href: event/2020.qmd
+          - text: "2019年度"
+            href: event/2019.qmd
+  search: false
+  
+
+format:
+  html:
+    theme: lumen
+    css: styles.css
+    toc: true

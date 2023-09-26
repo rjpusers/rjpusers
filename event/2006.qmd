@@ -1,0 +1,44 @@
+---
+title: "2006年度統計数理研究所共同研究集会<br>「データ解析環境Rの整備と利用」"
+---
+
+- 日時: 2006年12月8日（金）9:30-17:00、 2006年12月9日（土）9:30-16:20
+- 場所: 統計数理研究所 講堂
+- 参加費用: 無料
+- 使用言語: 12月8日は英語、9日は日本語
+
+統計数理研究所共同研究「Rの整備と利用」研究会開催のお知らせです。
+　
+データ解析環境Rに関する研究集会を以下のように行います。
+(なお、都合により若干の変更を行う場合があります。)
+
+参加は無料で自由ですので、皆様の多数のご参加をお願い申し上げます。
+　
+世話人：間瀬茂 　(東京工業大学)、中野純司 (統計数理研究所)
+
+## プログラム
+
+### 12月8日
+
+| Time | Speaker | Title |
+|------|:--------|:------|
+| 09:30-10:30 | Brian Ripley (University of Oxford, UK) | Software for Statistical Developments |
+| 10:45-11:45 | Kazushige Goto (The University of Texas, US) | Various optimization and performance tips for processors |
+| 13:30 -14:30 | Stefano Iacus (Universita degli Studi di Milano, Italy) | Two R specific optimization techniques for speed and data management |
+| 14:45-15:45 | Sungwoo Park (Pohang University of Science and Technology, Korea) | A critique of R from the perspective of programming language theory |
+| 16:00-17:00 | Junji Nakano (ISM, Japan) and Ei-ji Nakama(COM-ONE Inc., Japan) | R on super-computers at ISM |
+| 18:00- | | *Dinner* |
+
+### 12月9日
+
+| 時刻 | 発表者 | 演題 |
+|------|:--------|:------|
+| 09:30-10:15 | 舟尾暢男 (武田薬品工業（株）医薬開発本部 日本開発センター 統計解析部 統計グループ) | Ｒでデータハンドリング ～ データフレーム 30 分クッキング～ |
+| 10:15-11:00 | 久保拓弥 (北海道大学・地球環境科学研究院・環境生物科学部門 陸域生態学分野) | MCMC 計算まわりでさまよう R ユーザー |
+| 11:00-11:45 | 鈴木了太 ((株) ef-prime) | Rで起業！フリーソフトウェアとデータ分析ビジネスの現在 |
+| 11:45-13:00 | | *昼休み* |
+| 13:00-13:45 | 小笠原理（国立遺伝学研究所 生命情報・DDBJ研究センター）, 服部恵美（(株)情報数理研究所）, 三十尾潔高（(株)情報数理研究所） | R graphical manualsの開発と今後の展開 |
+| 13:45-14:30 | 牧山文彦 (特定医療法人敬愛会 ちばなクリニック 健康管理センター) | GoogleEarth とＲ言語 |
+| 14:30-14:50 | | *休憩* |
+| 14:50-15:35 | 谷村晋 (長崎大学 熱帯医学研究所 社会環境分野) | 地理空間分析のためのベクタデータモデル共通基盤 －sp パッケージのクラスとメソッド－ |
+| 15:35-16:20 | 間瀬茂 (東京工業大学 情報理工学研究科 数理・計算科学専攻) | R 紹介のためのオープンソース原稿 |

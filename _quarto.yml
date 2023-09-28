@@ -9,8 +9,10 @@ lang: "ja"
 website:
   title: "統計数理研究所 共同利用 研究集会「データ解析環境{{< fa brands r-project title='R' >}}の整備と利用」"
   back-to-top-navigation: true
+  favicon: images/favicon.ico
   repo-url: https://github.com/rjpusers/rjpusers
   navbar:
+    logo: images/apple-touch-icon.png
     left:
       - href: index.qmd
         text: "ホーム"

@@ -1,0 +1,79 @@
+---
+title: "2009年度統計数理研究所共同研究集会<br>データ解析環境Rの整備と利用"
+---
+
+- 日時: 2009年11月27日および12月5日
+- 場所: 統計数理研究所（統数研は１０月に東京都港区広尾から東京都立川市緑町に移転しました）
+- 参加費用: 無料
+
+## プログラム
+
+### 11月27日
+
+研究集会「データ解析環境Rの整備と利用」(1)
+
+英語でのチュートリアル講演
+"Introduction to High-Performance Computing with R"
+
+Speaker:  Dirk Eddelbuettel <edd\@debian.org>
+
+```
+Date and time: 27th (Fri.) November, 2009     9:50-16:15
+Place: Seminar room 2, ISM, Tachikawa, Tokyo
+```
+
+| Time | Title |
+|------|:------|
+| 09:50-10:45 | Introduction + Motivation leading Profiling to identify bottlenecks |
+| 10:50-11:45 | An overview of useful tools: Scripting extension and profiling |
+| | *Lunch* |
+| 13:00-13:55 | Performance enhancements using vectorisation and compiled code |
+| 14:00-14:55 | An overview of Parallel computing with R |
+| 15:00-15:55 | Extending memory limits using packages biglm, ff and bigmemory |
+| 15:55-16:15 | Discussion |
+
+Abstract
+
+```
+ R users are often limited by available memory, cpu power or
+       both. The tutorial will cover a number of available options
+       to enhance or accelerate R processing. We will cover
+       profiling approaches to identify bottlenecks. We will
+       introduce scripting extensions to R which we will use
+       throughout for our examples. Performance improvements from
+       vectorisation as well as from compiled code will be studied
+       using different packages.  Next, parallel computing using
+       multicore, nws, Rmpi.  snow and schedulers like slurm will
+       examined.  Another sections concerns out-of-memory / large
+       memory computing.  
+         This tutorial is based on the one given at UseR! 2009 in
+       Rennes, France: http://bit.ly/1gXlV5
+```
+
+### 12月5日
+
+研究集会「データ解析環境Rの整備と利用」(2)
+
+```
+日本の R ユーザによる講演（日本語）
+日時： 2009年12月5日(土)　9:50 - 17:20
+場所：　セミナー室 5、統計数理研究所、東京都立川市
+```
+
+| 時刻  | 発表者 | 演題 |
+|------|:----------|:---------------|
+| 09:50-09:55 | | 開会挨拶など |
+| 09:55-10:25 | 牧山文彦(データキューブ株式会社)   | KMLとR |
+| 10:30-11:00 | 石田 基広(徳島大学)  | RとExcelのインターフェイス RExcel パッケージの紹介 |
+| 11:05-11:35 | 谷村晋(兵庫医科大学) | Rによる環境疫学 -大気汚染の健康影響- |
+| 11:35-13:00 | | *ランチ* |
+| 13:00-13:30 | 舟尾暢男(武田薬品工業株式会社) | HTML アプリケーションを用いた簡易 R ツールの作成方法 |
+| 13:35-14:05 | 鈴木了太(株式会社ef-prime) | オープンなビジネスデータ分析環境 |
+| 14:10-14:40 | 岡田昌史(筑波大学) | RとFOSS4G(仮題) |
+| 14:45-14:55 | 岡田昌史(筑波大学) | R running on mobile gadgets |
+| 14:55-15:05 | 吉田康久(筑波大学)  | Tsukuba.Rの活動(仮題) |
+| 15:05-15:20 | | *休憩* |
+| 15:20-15:50 | 中谷朋昭(北海道大学) | パッケージccgarchによる多変量GARCHモデルの推定 |
+| 15:55-16:25 | 門脇正史(エーザイ(株)) | インタラクティブPDF作成ライブラリPDF2の紹介 |
+| 16:30-17:00 | 荒木孝治(関西大学) | Rcmdrによる教育用パッケージの開発品質管理の場合 |
+| 17:00-17:20 | | 討論 |

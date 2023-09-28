@@ -1,0 +1,55 @@
+---
+title: "2012年度統計数理研究所共同研究集会<br>データ解析環境Rの整備と利用"
+---
+
+- 日時: 2012年11月29日から12月1日
+- 場所: 統計数理研究所（東京都立川市）3階　セミナー室2（D304）ほか
+- 参加費用: 無料
+
+## プログラム
+
+### 11月29、30日 海外ゲスト講師によるチュートリアル講演（英語）
+
+Speaker： Professor John Fox (Department of Sociology, McMaster University, Canada)
+
+関連資料は [http://tinyurl.com/R-Japan](http://tinyurl.com/R-Japan) よりダウンロードできます。
+
+#### 29 November （Thu.）
+
+| Time | Title |
+|------|:------|
+| 10:30-12:00 | Structural Equation Modeling in R with the sem Package (1) |
+| 12:00-13:30 | *Lunch* |
+| 13:30-15:00 | Structural Equation Modeling in R with the sem Package (2) |
+| 15:15-16:45 | Structural Equation Modeling in R with the sem Package (3) |
+
+#### 30 November （Fri.）
+
+| Time | Title |
+|------|:------|
+| 10:00-11:00 | Visualizing Regression Models in R with the effects Package (1) |
+| 11:10-12:10 | Visualizing Regression Models in R with the effects Package (2) |
+| 12:10-13:30 | *Lunch* |
+| 13:30-14:30 | Writing R Commander Plug-in Packages (1) |
+| 14:40-15:40 | Writing R Commander Plug-in Packages (2) |
+| 15:40-16:00 | Questions & Discussion |
+
+### 12月1日 国内ユーザによる報告
+
+| 時刻  | 発表者 | 演題 |
+|------|:----------|:---------------|
+| 09:50-10:00 | | 開会挨拶および諸連絡 |
+| 10:00-10:30 | 奥村晴彦（三重大学） | Rによる大震災データ解析 |
+| 10:30-11:00 | 牧山 文彦（名桜大学共同研究員） | plotKMLとGoogleEarth |
+| 11:00-11:30 | 樋口 千洋（大日本住友製薬） | オミックス研究とR |
+| 11:30-11:35 | | Japan.Rからのお知らせ |
+| 11:35-13:00 | | *昼食* |
+| 13:00-13:30 | 鈴木了太（株式会社 ef-prime） | データ解析のためのGUIフロントエンド |
+| 13:30-14:00 | 石倉究（北海道大学大学院） | 新しいBayesデータ解析プログラムRStanの使い方 |
+| 14:00-14:30 | 岡田昌史（筑波大学） | [MPIクラスタとRstudioを併用した中規模データの分析レポート作成の実際](https://rpubs.com/mokjpn/mpirstudio) |
+| 14:30-15:00 | 谷村晋（兵庫医科大学） | Rによるマルチエージェントシミュレーション |
+| 15:00-15:30 | | *休憩* |
+| 15:30-16:00 | 奥村泰之（国立精神・神経医療研究センター） | 臨床疫学におけるRの普及活動 |
+| 16:00-16:30 | 中澤港（神戸大学） | [人口予測の可視化](http://minato.sip21c.org/RWS2012/) |
+| 16:30-17:00 | 藤野友和（福岡女子大学） | Rによる人口動態・健康指標分析システムの構築 |
+| 17:00-17:30 | | 討論 |

@@ -16,36 +16,36 @@ Each talk has one hour length and followed by about 10 minutesdiscussion.
 
 | Time | Speaker | Title |
 |------|:--------|:------|
-| 10:30 - 11:30 | Luke Tierney | Simple Parallel Statistical Computing in R |
-| 11:45 - 13:30 | | *Lunch* |
-| 13:30 - 14:30 | Friedrich Leisch | R Behind the Scenes: Using S the (un)usual Way |
-| 14:45 - 15:45 | Luke Tierney | Code Analysis and Parallelizing Vector Operations in R |
-| 16:00 - 17:00 | Friedrich Leisch | Flexible Implementations of Cluster Analysis and Mixture |
+| 10:30-11:30 | Luke Tierney | Simple Parallel Statistical Computing in R |
+| 11:45-13:30 | | *Lunch* |
+| 13:30-14:30 | Friedrich Leisch | R Behind the Scenes: Using S the (un)usual Way |
+| 14:45-15:45 | Luke Tierney | Code Analysis and Parallelizing Vector Operations in R |
+| 16:00-17:00 | Friedrich Leisch | Flexible Implementations of Cluster Analysis and Mixture |
 | 18:00- | | *Dinner*
 
 ### 12月8日
 
 | 時刻 | 発表者 | 演題 |
 |------|:--------|:------|
-| 9:40--10:30 | 牧山文彦(データキューブ) | R＋M＝？－Rとオブジェクトデータベースの新次元－ |
-| 10:30--11:20 | 樋口千洋(大日本住友製薬) |Bioconductorの概要とその利用方法 |
-| 11:20--12:10 | 鈴木了太(ef-prime) | ビジネスデータ分析の現場から |
-| 12:10--13:20 | | *昼休み* |
-| 13:20--14:10 |舟尾暢男(武田薬品工業) | 今日からあなたも統計ソフト開発者！～ R Commander の概要，改造，数式処理機能の実装例 ～ |
-| 14:10--15:00 | 石田基広(徳島大学総合科学部) | Rと自然言語研究 |
-| 15:00--15:20 | | *休憩* |
-| 15:20--16:10 | 谷村晋(立命館アジア太平洋大学) | 疫学におけるRの活用 |
-| 16:10--16:50 | 小笠原理(遺伝研DDBJ) | R Graphical Manualのつかいかた |
-| 16:50--17:20 | 山本寛(NTT西日本)，福崎昭伸(NTT西日本)，中野純司(統計数理研究所) | グリッドコンピューティングとR |
+| 9:40-10:30 | 牧山文彦(データキューブ) | R＋M＝？－Rとオブジェクトデータベースの新次元－ |
+| 10:30-11:20 | 樋口千洋(大日本住友製薬) |Bioconductorの概要とその利用方法 |
+| 11:20-12:10 | 鈴木了太(ef-prime) | ビジネスデータ分析の現場から |
+| 12:10-13:20 | | *昼休み* |
+| 13:20-14:10 |舟尾暢男(武田薬品工業) | 今日からあなたも統計ソフト開発者！～ R Commander の概要，改造，数式処理機能の実装例 ～ |
+| 14:10-15:00 | 石田基広(徳島大学総合科学部) | Rと自然言語研究 |
+| 15:00-15:20 | | *休憩* |
+| 15:20-16:10 | 谷村晋(立命館アジア太平洋大学) | 疫学におけるRの活用 |
+| 16:10-16:50 | 小笠原理(遺伝研DDBJ) | R Graphical Manualのつかいかた |
+| 16:50-17:20 | 山本寛(NTT西日本)，福崎昭伸(NTT西日本)，中野純司(統計数理研究所) | グリッドコンピューティングとR |
 
 ### 12月6日
 
 なお6日に関連して次の講演が予定されていますので、併せておしらせします．
 
 ```
-13:30 - 14:30  Finite Mixtures of Generalized Linear Regression Models   
+13:30-14:30  Finite Mixtures of Generalized Linear Regression Models   
                 by Friedrich Leisch
-14:45 - 15:45  MRI Tissue Classification Using Bayesian Hidden Markov Normal Mixture Models　
+14:45-15:45  MRI Tissue Classification Using Bayesian Hidden Markov Normal Mixture Models　
                by Luke Tierney
 
 ```

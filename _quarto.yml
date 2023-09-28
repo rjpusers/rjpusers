@@ -20,16 +20,16 @@ website:
         text: "R研究集会について"
       - text: "最近のイベント"
         menu: 
-          - text: "2023年度"
-            href: event/2023.qmd
           - text: "2022年度"
             href: event/2022.qmd
           - text: "2021年度"
             href: event/2021.qmd
           - text: "2020年度"
             href: event/2020.qmd
-          - text: "2019年度"
-            href: event/2019.qmd
+          - text: "2018年度"
+            href: event/2018.qmd
+          - text: "2017年度"
+            href: event/2017.qmd
   search: false
   
 

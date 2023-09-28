@@ -1,1 +1,1 @@
-Sitemap: https://rjpusers.github.io/rjpusers/sitemap.xml
+Sitemap: https://github.com/rjpusers/rjpusers/sitemap.xml

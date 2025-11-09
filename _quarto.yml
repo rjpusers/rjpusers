@@ -20,6 +20,8 @@ website:
         text: "R研究集会について"
       - text: "最近のイベント"
         menu: 
+          - text: "2024年度"
+            href: event/2024.qmd
           - text: "2023年度"
             href: event/2023.qmd
           - text: "2022年度"
@@ -36,5 +38,4 @@ website:
 format:
   html:
     theme: lumen
-    css: styles.css
     toc: true

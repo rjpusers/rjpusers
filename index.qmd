@@ -4,8 +4,7 @@ title: "R研究集会 #rjpusers"
 
 ## {{< fa bullhorn >}} お知らせ
 
-
-- 2025年度の{{< fa brands r-project title='R' >}}研究集会を2025年11月23日（日曜日）に開催します。参加（現地またはオンライン）には事前登録が必要です。[こちら（別サイトに移動します）](https://rjpusers.connpass.com/event/373551/)から申込をお願いします。
+2025年度の{{< fa brands r-project title='R' >}}研究集会を2025年11月23日（日曜日）に開催しました。各発表の資料をまとめています。[こちら（別サイトに移動します）](https://rjpusers.connpass.com/event/373551/)からご覧いただけます。
 
 ## プログラム
 

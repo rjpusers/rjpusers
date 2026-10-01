@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>R研究集会 #rjpusers – 統計数理研究所 共同利用 研究集会「データ解析環境の整備と利用」</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -29,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7ce46e092fd8e9b6f7e1c1a6b3565b5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-60a28a6e58c4296c0bb11f8f5d7a34cd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -93,6 +98,10 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
         <li>
+    <a class="dropdown-item" href="./event/2025.html">
+ <span class="dropdown-text">2025年度</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./event/2024.html">
  <span class="dropdown-text">2024年度</span></a>
   </li>  
@@ -107,14 +116,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./event/2021.html">
  <span class="dropdown-text">2021年度</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./event/2020.html">
- <span class="dropdown-text">2020年度</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./event/2018.html">
- <span class="dropdown-text">2018年度</span></a>
   </li>  
     </ul>
   </li>
@@ -134,9 +135,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#お知らせ" id="toc-お知らせ" class="nav-link active" data-scroll-target="#お知らせ"><i class="fa-solid fa-bullhorn" aria-label="bullhorn"></i> お知らせ</a></li>
-  <li><a href="#プログラム" id="toc-プログラム" class="nav-link" data-scroll-target="#プログラム">プログラム</a></li>
-  <li><a href="#過去のイベント" id="toc-過去のイベント" class="nav-link" data-scroll-target="#過去のイベント"><i class="fa-solid fa-calendar" aria-label="calendar"></i> 過去のイベント</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c686f726e203e7d7d-お知らせ" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c686f726e203e7d7d-お知らせ" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c686f726e203e7d7d-お知らせ"><i class="fa-solid fa-bullhorn" aria-label="bullhorn"></i> お知らせ</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e646172203e7d7d-過去のイベント" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e646172203e7d7d-過去のイベント" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e646172203e7d7d-過去のイベント"><i class="fa-solid fa-calendar" aria-label="calendar"></i> 過去のイベント</a></li>
   </ul>
 </nav>
     </div>
@@ -162,114 +162,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="お知らせ" class="level2">
-<h2 class="anchored" data-anchor-id="お知らせ"><i class="fa-solid fa-bullhorn" aria-label="bullhorn"></i> お知らせ</h2>
-<p>2025年度の<i class="fa-brands fa-r-project" title="R" aria-label="r-project"></i>研究集会を2025年11月23日（日曜日）に開催しました。各発表の資料をまとめています。<a href="https://rjpusers.connpass.com/event/373551/">こちら（別サイトに移動します）</a>からご覧いただけます。</p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c686f726e203e7d7d-お知らせ" class="level2">
+<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612062756c6c686f726e203e7d7d-お知らせ"><i class="fa-solid fa-bullhorn" aria-label="bullhorn"></i> お知らせ</h2>
+<p>2026年度の<i class="fa-brands fa-r-project" title="R" aria-label="r-project"></i>研究集会を2026年11月21日（土曜日）に統計数理研究所（東京都立川市）で開催します。Zoomによるオンライン配信を併用するハイブリッド開催です。プログラムおよび参加登録の案内は、決まり次第このページでお知らせします。</p>
 </section>
-<section id="プログラム" class="level2">
-<h2 class="anchored" data-anchor-id="プログラム">プログラム</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 45%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">時間</th>
-<th style="text-align: left;">内容</th>
-<th style="text-align: left;">発表者（所属）</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">10:15 ~ 10:20</td>
-<td style="text-align: left;">開会挨拶</td>
-<td style="text-align: left;">瓜生真也<br>（徳島大学）</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">10:20 ~ 10:50</td>
-<td style="text-align: left;">次世代IDE、Positron入門</td>
-<td style="text-align: left;">瓜生真也<br>（徳島大学）</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">10:50 ~ 11:20</td>
-<td style="text-align: left;">Rによる非線形相関の評価と再現可能研究</td>
-<td style="text-align: left;">鈴木了太<br>（株式会社ef-prime）</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">11:20 ~ 11:50</td>
-<td style="text-align: left;">Rでできる分布回帰のいろいろ</td>
-<td style="text-align: left;">安川武彦<br>（株式会社JDSC）</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">11:50 ~ 12:50</td>
-<td style="text-align: left;">昼休み</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">12:50 ~ 13:20</td>
-<td style="text-align: left;">グラフィカルモデルと因果探索: R言語による実装</td>
-<td style="text-align: left;">鈴木 讓<br>（大阪大学 基礎工数理）</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">13:20 ~ 13:50</td>
-<td style="text-align: left;">高校教師の動機づけに影響を与えている要因の特定</td>
-<td style="text-align: left;">Kota Inai （Tokushima University）<br>, Kota Hattori* （Tokushima University）</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">13:50 ~ 14:20</td>
-<td style="text-align: left;">DuckDB + R による DataHub データの探索的財務ビッグデータ解析</td>
-<td style="text-align: left;">地道正行*（関西学院大学商学部）<br>, 宮本大輔（政策研究大学院大学政策研究科）<br>, 阪智香（関西学院大学商学部）<br>, 永田修一（関西学院大学商学部）</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">14:20 ~ 14:50</td>
-<td style="text-align: left;">MCPサーバでRを使う</td>
-<td style="text-align: left;">樋口千洋<br>（医薬基盤・健康・栄養研究所/東京科学大学）</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">14:50 ~ 15:00</td>
-<td style="text-align: left;">休憩</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">15:00 ~ 15:30</td>
-<td style="text-align: left;">AIで加速するデータサイエンス: 活用と責任ある利用</td>
-<td style="text-align: left;">瓜生真也<br>（徳島大学）</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">15:30 ~ 16:00</td>
-<td style="text-align: left;">NipponMapパッケージの新機能</td>
-<td style="text-align: left;">谷村晋<br>（三重大学大学院医学系研究科）</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">16:00 ~ 16:30</td>
-<td style="text-align: left;">衛星リモートセンシングデータのモデリング</td>
-<td style="text-align: left;">山川純次 <br>（岡山大学学術研究院環境生命自然科学学域）</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">16:30 ~ 17:00</td>
-<td style="text-align: left;">Rによる地理空間メッシュデータから行政区域代表値を算出する方法に関する検討</td>
-<td style="text-align: left;">加藤遥香*, 谷村晋<br>（三重大学大学院医学系研究科）</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17:00 ~ 17:15</td>
-<td style="text-align: left;">総合討論</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17:15 ~ 17:20</td>
-<td style="text-align: left;">閉会挨拶</td>
-<td style="text-align: left;">瓜生真也<br>（徳島大学）</td>
-</tr>
-</tbody>
-</table>
-<p>連名の場合、発表者を氏名の後ろに * を付けて示す。</p>
-</section>
-<section id="過去のイベント" class="level2">
-<h2 class="anchored" data-anchor-id="過去のイベント"><i class="fa-solid fa-calendar" aria-label="calendar"></i> 過去のイベント</h2>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e646172203e7d7d-過去のイベント" class="level2">
+<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616c656e646172203e7d7d-過去のイベント"><i class="fa-solid fa-calendar" aria-label="calendar"></i> 過去のイベント</h2>
 <p>下記のリンクおよびメニューバーの<code>最近のイベント</code>（直近5回分まで）から、過去のイベントのプログラムがご覧いただけます。</p>
 <ul>
+<li><a href="./event/2025.html">2025年度</a></li>
 <li><a href="./event/2024.html">2024年度</a></li>
 <li><a href="./event/2023.html">2023年度</a></li>
 <li><a href="./event/2022.html">2022年度</a></li>

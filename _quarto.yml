@@ -20,8 +20,6 @@ website:
         text: "R研究集会について"
       - text: "最近のイベント"
         menu: 
-          - text: "2026年度"
-            href: event/2026.qmd
           - text: "2025年度"
             href: event/2025.qmd
           - text: "2024年度"
@@ -30,6 +28,8 @@ website:
             href: event/2023.qmd
           - text: "2022年度"
             href: event/2022.qmd
+          - text: "2021年度"
+            href: event/2021.qmd
   search: false
   
 
